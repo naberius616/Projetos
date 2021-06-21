@@ -4,7 +4,7 @@ int main(){
     int idade;
     char nome[20];
 
-    printf("Qual a sua idade cuzaum? ");
+    printf("Qual a sua idade? ");
 
     scanf("%d", &idade);
 
