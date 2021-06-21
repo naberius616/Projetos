@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>?Naberius?</title>
+</head>
+<body id="principal">
+     <style>
+        
+        #principal {
+            background-color: rgb(22, 21, 21);
+        }
+        .corh1 {
+            margin-top: 30px;
+            margin-left: 400px;
+            color: white;
+        }
+        .corh12 {
+            margin-top: 50px;
+            margin-left: 420px;
+            color: white;
+        }
+        .corh12:hover {
+            color: rgba(255, 0, 0, 0.61);
+            transition-timing-function: linear;
+            transition-timing-function: cubic-bezier(0.005, 0.625, 0.365, 0.0840);
+            transition-delay: 0.1s;
+        }
+
+        .corh1:hover {
+            color: rgba(0, 255, 255, 0.63);
+            transition-timing-function: linear;
+            transition-timing-function: cubic-bezier(0.005, 0.625, 0.365, 0.0840);
+            transition-delay: 0.1s;
+        }
+        
+
+        .naberius {
+            margin-top: 30px;
+            width: 400px;
+            margin-left: 430px;
+        }
+
+    </style>
+
+    <div id="h">
+        <div id="h1">
+            <h1 class="corh1">Naberius esteve aqui BB 💕 </h1>
+                <h1 class="corh12">I love you Cappuccino! 💗</h1>
+        </div>
+    </div>
+
+    <div id="imagens">
+        <div id="imagen">
+            <img class="naberius" src="https://c.tenor.com/b6PLDyupHEUAAAAi/espresso-cappuccino.gif" alt="">
+        </div>
+    </div>
+ 
+</body>
+</html>
