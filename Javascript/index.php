@@ -6,6 +6,10 @@
 
   </head>
   <body>
+    <?php 
+     $teste = "somente um teste";
+      echo "isto é".$teste;
+     ?>
     <h1>Curso teste</h1> 
     <script src="script2.js"></script>
   </body>
