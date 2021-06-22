@@ -4,7 +4,7 @@
 int main (){
     int num1;
     int elev;
-    float raiz;
+    int raiz;
     int num2;
     int result;
     char s[2] = "s";
@@ -17,7 +17,7 @@ int main (){
 
 
     if( num1 > 0){
-    printf("o nuemero %d elevado ao quadrado é %d!\n", num1, elev);
+    printf("o número %d elevado ao quadrado é %d!\n", num1, elev);
     
     printf("e a raiz de %d é igual a %f \n", num1, raiz);
  
