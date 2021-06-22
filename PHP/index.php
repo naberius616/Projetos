@@ -2,31 +2,40 @@
 <html lang="pt_br" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>PHP</title>
+    <title>?NAB?</title>
   </head>
   <body>
-
     <?php
+      $top = "testando <br>";
+      $top2 = "testando <br>";
+      
+      echo "$top <br>";
+      
+      echo "$top2 <br>";
 
-        //string
-        $nome = "Jorge Sant Ana ";
+      echo "<hr>";
 
-        //int
-        $idade = 29;
-         //float
-        $peso = 82.5;
+      echo substr($dig, 1, 4)."<br>";
 
-        //boolean
-        $fumante_sn = true; // true = 1 ou false = vazio
+      echo "teste <br>"; 
+      echo "<hr>";
+
+
+      $num2 = 2.45;
+      $num = -2.45;
+      
+      echo ceil($num2)."<br>";//fazer arredondamento
+      echo floor($num)."<br>"; //arredondar para baixo
+
+      echo round($num1)."<br>";  //arrendonda com base na fração
+
+      echo rand($num)."<br>"; //gerar um valor aleatorio 0 até randmax
+      echo "<br>".getrandmax();
+
+
+
 
      ?>
 
-     <h1>Ficha cadastral</h1>
-     <br>
-     <p>Nome: <?= $nome ?></p>
-     <p>Idade: <? $idade ?></p>
-     <p>Peso: <? $peso ?></p>
-     <p>Fumante: <? $fumante_sn ?></p>
-
-  </body>
+     
 </html>
