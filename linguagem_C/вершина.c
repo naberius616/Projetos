@@ -4,7 +4,7 @@
 int main (){
     int num1;
     int elev;
-    int raiz;
+    float raiz;
     int num2;
     int result;
     char s[2] = "s";
