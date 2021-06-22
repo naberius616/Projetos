@@ -2,4 +2,4 @@
 
 Estes são meus pequenos projetos, aulas, testes...
 
-Alguns ainda estão incompletos mas pretendo atualizar.
+Alguns ainda estão incompletos, mas pretendo atualizar.
